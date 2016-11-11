@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px) {
+  .collapse.navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-brand {
+    font-size: 24px !important;
+    text-align: right !important;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #burger-menu {
+    display: none;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+    padding: 0 15px;
+
+    &.is-active {
+      display: block;
+    }
+
+    li {
+      padding: 20px 0 0 0;
+      font-size: 18px;
+    }
+  }
+}

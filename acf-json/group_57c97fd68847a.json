@@ -1,0 +1,193 @@
+{
+    "key": "group_57c97fd68847a",
+    "title": "Technology",
+    "fields": [
+        {
+            "key": "field_57c97fde9bba1",
+            "label": "Banner image",
+            "name": "banner_image",
+            "type": "image",
+            "instructions": "The banner image",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_57c97ff89bba2",
+            "label": "Banner Header Text",
+            "name": "banner_header_text",
+            "type": "text",
+            "instructions": "The banner header text",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_57c9800c9bba3",
+            "label": "Banner sub header text",
+            "name": "banner_sub_header_text",
+            "type": "text",
+            "instructions": "The banner sub header text",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_57c9802b9bba4",
+            "label": "Column 1",
+            "name": "column_1",
+            "type": "wysiwyg",
+            "instructions": "The column 1 text",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "toolbar": "basic",
+            "media_upload": 1
+        },
+        {
+            "key": "field_57c980479bba5",
+            "label": "Column 2",
+            "name": "column_2",
+            "type": "wysiwyg",
+            "instructions": "The column 2 text",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "toolbar": "basic",
+            "media_upload": 1
+        },
+        {
+            "key": "field_57c98220ffb62",
+            "label": "Call To Action Button Link",
+            "name": "call_to_action_button_link",
+            "type": "page_link",
+            "instructions": "Call to action button link",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "taxonomy": [],
+            "allow_null": 0,
+            "allow_archives": 1,
+            "multiple": 0
+        },
+        {
+            "key": "field_57c98242ffb63",
+            "label": "Call To Action Button Text",
+            "name": "call_to_action_button_text",
+            "type": "text",
+            "instructions": "Call to action button text",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_57c9807b9bba6",
+            "label": "Closing Header Text",
+            "name": "closing_header_text",
+            "type": "text",
+            "instructions": "The closing header text",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "technology"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1475343146
+}

@@ -1,0 +1,41 @@
+.row {
+  margin-bottom: 30px;
+}
+
+.btn {
+  &.btn-cta {
+    border: 1px solid #999;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+
+    &:hover {
+      border: 1px solid #000;
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.navbar {
+  margin: 20px 0 20px 0;
+}
+
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-toggle {
+  z-index: 3;
+}
+
+.img-thumbnail {
+  border: none;
+}
